@@ -125,7 +125,7 @@ body {
   width: 100%;
 }
 
-/********** Menu page **********/
+/* Menu page */
 #menu-content, #contact-content {
   border: 2px solid #;
   background-color: white;
@@ -206,9 +206,9 @@ body {
 #beverages table td:last-child {
   font-weight: bold;
 }
-/********** Menu page end ******/
+/* Menu page end */
 
-/********** Contact page **********/
+/* Contact page */
 #contact-title {
   font-size: 2.7em;
 }
@@ -232,7 +232,7 @@ body {
   color: #BA55D3;
   margin-bottom: 20px;
 }
-/********** Contact page end ******/
+/* Contact page end */
 
 
 /*Footer*/
@@ -266,11 +266,11 @@ body {
   text-decoration: none;
 }
 
-#testimonials {
+#reviews {
   font-style: italic;
 }
 
-#testimonials p:last-child {
+#reviews p:last-child {
   margin-top: 25px;
 }
 
@@ -278,7 +278,7 @@ body {
   display: none !important;
 }
 
-/********** Media queries **********/
+/*** Media  ***/
 @media (min-width: 1200px) {
   .container .jumbotron, #carousel-example-generic img {
     height: 650px;
@@ -363,7 +363,7 @@ body {
   }
 }
 
-@media (max-width: 550px) { 
+@media (max-width: 550px) {
   .container .jumbotron, #carousel-example-generic img {
     height: 250px;
   }
